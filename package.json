@@ -1,0 +1,19 @@
+{
+  "name": "docs.netweak.com",
+  "version": "0.0.1",
+  "description": "Documentation for netweak.com.",
+  "main": "index.js",
+  "authors": {
+    "name": "Lucas Decrock",
+    "email": "lucas@decrock.me"
+  },
+  "repository": "/docs.netweak.com",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
