@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: https://netweak.com/img/logo/48h/icon.png
 tagline: Documentation for netweak.com.
 actionText: Quick Start →
 actionLink: /guide/
