@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://netweak.com/img/logo/256h/icon.png
+heroImage: https://netweak.com/img/logo/512h/icon.png
 tagline: Documentation for netweak.com.
 actionText: Quick Start →
 actionLink: /guide/
