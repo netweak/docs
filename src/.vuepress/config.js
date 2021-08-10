@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Netweak Documentation',
+  title: 'Netweak Docs',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -38,8 +38,16 @@ module.exports = {
         link: '/guide/',
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'Plaform',
+        link: '/platform/'
+      },
+      {
+        text: 'Agent',
+        link: '/agent/'
+      },
+      {
+        text: 'API',
+        link: '/api/'
       },
       {
         text: 'Back to Netweak',
