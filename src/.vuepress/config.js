@@ -31,7 +31,7 @@ module.exports = {
     editLinks: false,
     docsDir: '',
     editLinkText: '',
-    lastUpdated: false,
+    lastUpdated: true,
     nav: [
       {
         text: 'Guide',
@@ -61,7 +61,39 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            'using-vue',
+            'partnerships'
+          ]
+        }
+      ],
+      '/agent/': [
+        {
+          title: 'Agent',
+          collapsable: false,
+          children: [
+            '',
+            'debug',
+            'uninstall'
+          ]
+        }
+      ],
+      '/api/': [
+        {
+          title: 'API',
+          collapsable: false,
+          children: [
+            '',
+            'auth',
+            'teams',
+            'rate-limiting'
+          ]
+        },
+        {
+          title: 'Resources',
+          collapsable: false,
+          children: [
+            'resources/user',
+            'resources/servers',
+            'resources/status-pages'
           ]
         }
       ],
