@@ -16,7 +16,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'theme-color', content: '#0779e4' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
@@ -88,12 +88,12 @@ module.exports = {
           ]
         },
         {
-          title: 'Resources',
+          title: 'Endpoints',
           collapsable: false,
           children: [
-            'resources/user',
-            'resources/servers',
-            'resources/status-pages'
+            'endpoints/hello',
+            'endpoints/user',
+            'endpoints/servers'
           ]
         }
       ],
