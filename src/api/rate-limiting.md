@@ -1,7 +1,7 @@
 # Rate limiting
 
 To avoid abuses the number of requests you can make to the API in a specified amount of time is limited.
-The current limitation (per user) is **100 requests per minute**.
+The current limitation (per user) is **60 requests per minute**.
 
 ::: warning
 As the API is still in development we choose a very high rate limit, but it will certainly change in the future.
