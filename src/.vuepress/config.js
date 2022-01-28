@@ -65,6 +65,16 @@ module.exports = {
           ]
         }
       ],
+      '/platform/': [
+        {
+          title: 'Platform',
+          collapsable: false,
+          children: [
+            '',
+            'status-page'
+          ]
+        }
+      ],
       '/agent/': [
         {
           title: 'Agent',
